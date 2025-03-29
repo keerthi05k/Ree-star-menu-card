@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <ul>
                 <li>Home |</li>
                 <li>Receipe |</li>
-                <li>Contact |</li>
+                <li>Contact </li>
             </ul>
         </nav>
     </header>
@@ -44,35 +45,38 @@
 
         <div class="section-five">
             <img src="image/4.jpg" class="section-five__image">
-            <p class="section-five__desc">This spicy salmon bowl just bursts <br>flavors, textures,is full of nutiriton!
+            <p class="section-five__desc text">This spicy salmon bowl just bursts <br>flavors, textures,is full of
+                nutiriton!
             </p>
             <button class="section-five__button">Order Now</button>
         </div>
     </div>
 
     <div class="section-six">
-        <table>
-            <h2 class="section-six__title">Contact Us</h2>
-            <div class="section-six__form">
-                <tr class="section-six__name">
-                    <td>Name:</td>
-                    <td><input type="text" placeholder="Name"></td>
-                </tr>
-
-                <tr class="section-six__age">
-                    <td>Age:</td>
-                    <td><input type="text" placeholder="Age"></td>
-                </tr>
-                <tr class="section-six__email">
-                    <td>Email:</td>
-                    <td><input type="text" placeholder="Email"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td class="section-six__send"><button>Send</button></td>
-                </tr>
+        <h2 class="section-six__title">Contact Us</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" required /> <br>
             </div>
-        </table>
+
+            <div class="section-six__age">
+                <label for="name">Age: </label>
+                <input type="text" name="age" id="age" min="1" max="120" height="200%" required/> <br>
+            </div>
+
+            <div>
+                <label for="name">Email:</label>
+                <input type="text" name="Email" required />
+                <br>
+            </div>
+            <input type="submit" id="submit">
+        </form>
+
+
+
+    </div>
+
     </div>
 </body>
 

@@ -73,28 +73,27 @@ body {
     color: white;
     margin: 20px;
     text-align: center;
-}
+} 
 
 .section-six__form {
     justify-content: center;
     padding: 20px;
 }
 
-.section-six__name,
-.section-six__age,
-.section-six__email {
+
+#age{
+    width: 11%;
     position: relative;
-    left: 620px;
+    left: 0.7%;
 }
 
-.section-six__send button {
+#submit {
     background-color: yellow;
     border: none;
     color: black;
-    outline: none;
-    width: 200px;
-    height: 20px;
+    width: 240px;
+    height: 30px;
     position: relative;
-    margin-left: 300%;
-}
+    margin-left: 3%;
+} 
 
